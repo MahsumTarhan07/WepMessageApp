@@ -1,0 +1,84 @@
+body {
+  background-color: #057dce;
+}
+.slider-form {
+  box-shadow: 1rem 1rem rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  color: rgb(177, 174, 174);
+  margin: 150px auto;
+  padding-top: 1rem;
+  width: 340px;
+  height: 360px;
+}
+.slider-form > h2 {
+  background-color: #ddd;
+  color: #111;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding: .25rem;
+  text-align: center;
+}
+.slider-form > h3 {
+  color: #222;
+  font-size: 1.25em;
+  font-weight: 400;
+  padding: 0 1.125rem;
+  text-align: center;
+  margin: 0;
+}
+.slider-form > form {
+  padding: 1em;
+}
+.slider-form > form > .form-group {
+  margin-bottom: .75rem;
+}
+.slider-form > form > button {
+  background-color: #003354;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: .5rem;
+  text-align: center;
+  width: 100%;
+}
+.slider-form > form > .form-group > input {
+  border: none;
+  border-radius: .5rem .5rem 0 0;
+  margin: 0;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.register{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  background-color: rgb(48, 163, 172);
+  padding-top: 2px;
+}
+
+.register a{
+  color: rgb(0, 0, 0);
+  margin-left: 130px;
+  text-decoration: none;
+}
+
+
+.register a:hover{
+  color: rgb(255, 255, 255);
+}
+
+.forgotmypassword{
+  margin-left: 90px;
+  margin-top: 5px;
+}
+
+.forgotmypassword a{
+  color: black;
+  text-decoration: none;
+}
+
+

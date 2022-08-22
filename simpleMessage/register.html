@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Register</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <form action="php/register.php" name="registerForm" id="register_forms" onsubmit="validateForm()" method="post" >
+            <h2>Register</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="FirstName">Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Name" id="name" >
+                    </div>
+                </div>
+
+                <!--  LastName   -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="LastName">Lastname </label>
+                        <input type="text" class="form-control" name="lastname" placeholder="Lastname" id="lastname" >
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Email"  id="email" >
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" class="form-control" name="phone" placeholder="Phone" id="phone" >
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Password"  id="password" >
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Password Repeat">Password Repeat</label>
+                        <input type="password" class="form-control" name="password" placeholder="Password Repeat" id="repeatpassword" >
+                    </div>
+                </div>
+            </div >
+            <button type="submit" id="registerbtn" name="registerbtn" class="btn btn-primary col-2 btn_submit">Register</button>
+        </form>
+        <span id="span"></span>
+        <div class="col-md-2 mt-5">
+            <label for="login" id="label_login">
+                <a href="#">Login</a>
+            </label>
+        </div>
+    </div>
+
+  
+
+    <footer class="bg-light text-center text-lg-start mt-5 footer text-primary" style="background-color:blue;">
+        <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2);" id="footer">
+          © 2022 Copyright:
+          <a class="text-dark" href="#" style="color: black;">Simple Message</a>
+        </div>
+      </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+>

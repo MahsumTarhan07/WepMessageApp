@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    margin-bottom: 0;
+    height: 100px;
+}
+
+#label_login a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#label_login a:hover{
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.btn_submit{
+    margin-top: 20px;
+}
+
+.btn_submit:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
